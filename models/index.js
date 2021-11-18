@@ -1,10 +1,10 @@
 const Sequelize = require('sequelize');
-// const db = new Sequelize('postgres://localhost:5432/wikistack');
+const db = new Sequelize('postgres://localhost:5432/wikistack');
 
 //BELOW CODE: turns off SQL command text logging in console
-const db = new Sequelize('postgres://localhost:5432/wikistack', {
-logging: false
-});
+// const db = new Sequelize('postgres://localhost:5432/wikistack', {
+// logging: false
+// });
 
 db
   .authenticate()

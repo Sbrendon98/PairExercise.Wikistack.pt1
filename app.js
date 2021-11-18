@@ -41,8 +41,6 @@ const tables = async () => {
 
 tables();
 
-
-
 // app.listen(PORT, () => {
 //   console.log(`App listening in port ${PORT}`)
 // })
