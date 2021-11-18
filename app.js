@@ -1,7 +1,9 @@
 const morgan = require("morgan")
 const express = require("express")
-const index = require("./views/index")
+const index = require("./PairExercise.Wikistack.pt1/views/index")
 const { db, Page, User } = require('./models/index');
+const wiki = require("./routes/wiki")
+const users = require("./routes/users")
 
 const app = express()
 app.use(morgan("dev"))
